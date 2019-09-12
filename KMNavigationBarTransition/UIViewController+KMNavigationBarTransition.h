@@ -27,4 +27,6 @@
 
 @property (nonatomic, weak) UIScrollView *km_scrollView;
 
+@property (nonatomic, strong, readonly, nullable) UINavigationBar *km_transitionNavigationBar;
+
 @end
